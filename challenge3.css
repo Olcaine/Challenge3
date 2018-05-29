@@ -1,0 +1,43 @@
+nav main footer  {
+    width: 1250px;
+}
+
+
+h1  {
+    vertical-align: middle;
+    margin-left: 143px;
+    display: inline-block;
+
+}
+
+
+
+nav {
+    width: 1250px;
+    height: 95px;
+    border:solid 1px;
+    border-left: none;
+    border-right: none;
+    vertical-align: middle;
+    position: relative;
+    display:inline-block;
+
+
+}
+
+ul {
+    text-align: right;
+width: 50%;
+
+display: inline-block;
+padding-left: 310px;
+
+
+}
+
+ li {
+     display: inline-block;
+    margin-right:5px;
+    padding-bottom: 10px;
+
+ }
