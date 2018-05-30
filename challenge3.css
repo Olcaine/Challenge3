@@ -2,29 +2,47 @@ body{
 
 }
 
-nav, main, footer, header {
-    max-width: 100%;
+
+main, footer, header {
+    width: 100%;
     margin:auto;
+    font-family: 'News Cycle', sans-serif;
+}
+
+nav, article, footer p {
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: #FFFFFF;
 
 }
 
+main{
+    background-image: url(img/banner.png);
+    background-color: #31aa65;
+    background-size: cover;
+}
+
+footer{
+
+}
 
 h1  {
     vertical-align: middle;
-    margin-left: 143px;
-    display: inline-block;
+    padding-left:400px;
+    display: inline;
+
 
 }
 
 nav {
 
     height: 95px;
-    /* border:solid 1px;
-    border-left: none;
-    border-right: none;
-    vertical-align: middle;
-    position: relative;  */
-    display:inline-block;
+    display:inline;
+
+
 }
 
 ul {
@@ -39,20 +57,18 @@ padding-left: 310px;
      display: inline-block;
     margin-right:5px;
     padding-bottom: 10px;
+    padding-right: 8%;
 
  }
 
  .rond {
      border-radius: 100%;
-     padding-right: 8px;
+     padding-right: 2%;
 
  }
 
 .intro {
-    background-image: url(img/banner.png);
-    background-color: #31aa65;
     height: 825px;
-    background-size: cover;
     text-align: center;
     padding-top: 15%;
     color: white;
