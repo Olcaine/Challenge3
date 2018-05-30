@@ -1,5 +1,11 @@
-nav main footer  {
+body{
+    background-color: grey;
+}
+
+nav, main, footer, header {
     width: 1250px;
+    margin:auto;
+    background-color: yellow;
 }
 
 
@@ -10,28 +16,22 @@ h1  {
 
 }
 
-
-
 nav {
-    width: 1250px;
+
     height: 95px;
-    border:solid 1px;
+    /* border:solid 1px;
     border-left: none;
     border-right: none;
     vertical-align: middle;
-    position: relative;
+    position: relative;  */
     display:inline-block;
-
-
 }
 
 ul {
     text-align: right;
 width: 50%;
-
 display: inline-block;
 padding-left: 310px;
-
 
 }
 
@@ -39,5 +39,11 @@ padding-left: 310px;
      display: inline-block;
     margin-right:5px;
     padding-bottom: 10px;
+
+ }
+
+ img {
+     border-radius: 100%;
+     padding-right: 8px;
 
  }
